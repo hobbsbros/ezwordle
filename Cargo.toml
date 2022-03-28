@@ -16,6 +16,10 @@ indicatif = "0.16.2"
 name = "ezwordle"
 path = "src/wordler.rs"
 
+[[bin]]
+name = "benchmark"
+path = "src/benchmark.rs"
+
 [lib]
 name = "util"
 path = "src/util/mod.rs"
